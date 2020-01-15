@@ -1,5 +1,5 @@
 import unittest
-import dvir as d
+from homeworks import dvir as d
 
 
 class MyTestCase(unittest.TestCase):

@@ -33,3 +33,24 @@ Traceback (most recent call last):
   File "C:\Users\avcoh\PycharmProjects\my_logging\dvir.py", line 29, in wrapper
     assert len(x) == len(y), "error: lists are not even"
 AssertionError: error: lists are not even
+DEBUG  14:37:02 message: function log_scale is enetering zip_it 
+DEBUG  14:37:02 message: function uneven is enetering zip_it 
+DEBUG  14:37:02 message: function filter_and_divide is enetering zip_it 
+DEBUG  14:37:02 message: functionlog_scale is sent to wrapper with args ([100, 200],) 
+INFO  14:37:02 message: wrapper: func = log_scale x = [100, 200] y = [4.605170185988092, 5.298317366548036] 
+DEBUG  14:37:02 message: functionuneven is sent to wrapper with args ([100, 200],) 
+INFO  14:37:02 message: wrapper: func = uneven x = [100, 200] y = [100] 
+ERROR  14:37:02 message: error: lists are not even 
+Traceback (most recent call last):
+  File "C:/Users/avcoh/PycharmProjects/my_logging/homeworks/dvir.py", line 29, in wrapper
+    assert len(x) == len(y), "error: lists are not even"
+AssertionError: error: lists are not even
+DEBUG  14:37:02 message: functionfilter_and_divide is sent to wrapper with args (234, 340, 560) 
+INFO  14:37:02 message: wrapper: func = filter_and_divide x = [234, 340, 560] y = [23.4, 34.0, 56.0] 
+DEBUG  14:37:02 message: functionfilter_and_divide is sent to wrapper with args (100, 2) 
+INFO  14:37:02 message: wrapper: func = filter_and_divide x = [100, 2] y = [10.0] 
+ERROR  14:37:02 message: error: lists are not even 
+Traceback (most recent call last):
+  File "C:/Users/avcoh/PycharmProjects/my_logging/homeworks/dvir.py", line 29, in wrapper
+    assert len(x) == len(y), "error: lists are not even"
+AssertionError: error: lists are not even
